@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.doc_container{
+    width: 100%;
+    height:100vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doc_container form{
+    display:flex;
+    width: 30%;
+    height: 70%;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content:center ;
+    background-color: aqua;
+}
+form h1{
+    margin-bottom: 30px;
+}
+.doc_container form input[type="submit"]{
+    margin-top: 20px;
+    outline: none;
+    background-color: chartreuse;
+    padding: 10px 20px;
+}
+input[type="text"]{
+    height: 40px;
+    font-size: 15px;
+}
+#gender{
+    width:200px;
+    height: 30px;
+}

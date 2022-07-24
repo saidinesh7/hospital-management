@@ -1,0 +1,28 @@
+
+#table-container{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+
+
+}
+#table-container table{
+    margin-top: 50px;
+    overflow-y: scroll;
+}
+#table-container table thead tr th{
+background-color: aquamarine;
+padding: 10px 35px;
+}
+#table-container table tbody tr:nth-child(2n){
+    background-color: lightblue;
+    padding: 10px 35px;
+}
+#table-container table tbody tr:nth-child(2n+1){
+    background-color: rgb(0, 190, 254);
+    padding: 10px 35px;
+}
+tr td{
+    text-align:center;
+}
